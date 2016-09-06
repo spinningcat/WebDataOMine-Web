@@ -2,7 +2,7 @@ from flask import Flask
 import sys
 import os
 
-port = int(os.environ.get("PORT", 8080))
+port = int(os.environ.get("PORT", 8082))
 app = Flask(__name__)
 
 @app.route("/")
